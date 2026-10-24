@@ -1,0 +1,232 @@
+body {
+    background-color: #F3F4F6;
+    text-align: center;
+    font-family: Arial;
+}
+
+p {
+    color: #374151;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav {
+    background-color: #163A5F;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.apresentacao {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    padding: 30px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.apresentacao h1 {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.apresentacao p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.apresentacao img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sobre-construtora {
+    background-color: #FFFFFF;
+    padding: 35px;
+    margin: 20px;
+}
+
+.sobre-construtora h2 {
+    color: #163A5F;
+}
+
+.servicos-home {
+    background-color: #F3F4F6;
+    padding: 35px;
+    margin: 20px;
+}
+
+.servicos-home h2 {
+    color: #163A5F;
+}
+
+.cards-servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards-servicos div {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #163A5F;
+}
+
+.cards-servicos h3 {
+    color: #163A5F;
+}
+
+.projetos {
+    background-color: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.projetos h2 {
+    color: #163A5F;
+    font-size: 28px;
+}
+
+.categorias-projetos {
+    margin: 20px;
+}
+
+.categorias-projetos a {
+    display: inline-block;
+    color: #163A5F;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #163A5F;
+}
+
+.imoveis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.imovel {
+    background-color: #F3F4F6;
+    padding: 15px;
+    text-align: left;
+}
+
+.imovel img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.imovel h3 {
+    color: #163A5F;
+}
+
+.diferenciais {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin: 20px;
+}
+
+.diferenciais h2 {
+    color: #163A5F;
+}
+
+.vantagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.vantagens div {
+    background-color: #F3F4F6;
+    padding: 15px;
+}
+
+.contatos {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    padding: 25px;
+    margin: 20px;
+}
+
+.contatos h2 {
+    color: #F2B84B;
+}
+
+.contatos p {
+    color: #FFFFFF;
+}
+
+
+.contatos form {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contatos label {
+    display: block;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.contatos input,
+.contatos select,
+.contatos textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.contatos textarea {
+    height: 120px;
+}
+
+.contatos button {
+    background-color: #F2B84B;
+    color: #163A5F;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #F2B84B;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+footer nav {
+    background-color: #163A5F;
+}
+
